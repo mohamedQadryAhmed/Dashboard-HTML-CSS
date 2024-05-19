@@ -3,17 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css//style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/boxicons.min.css" />
     <title>Dashboard</title>
   </head>
   <body>
-    
+    <main class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./images/logo.png" alt="">
+            <h2><span class="danger">Q</span> Dashboard</h2>
+          </div>
+          <div class="close">
+            <i class='bx bx-x'></i>
+          </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#dashboard" class="active">
+                        <i class='bx bxs-dashboard' ></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#customers">
+                        <i class='bx bx-user'></i>
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#orders">
+                        <i class='bx bx-receipt' ></i>
+                        <span>Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#analytics">
+                        <i class='bx bxs-bar-chart-alt-2'></i>
+                        <span>Analytics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#massages">
+                        <i class='bx bxl-messenger' ></i>
+                        <span>Massages</span>
+                        <span class="msg-counter">25</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#reports">
+                        <i class='bx bxs-flag' ></i>
+                        <span>Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#products">
+                        <i class='bx bxs-category-alt'></i>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#settings">
+                        <i class='bx bx-cog' ></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#add">
+                        <i class='bx bxs-plus-circle'></i>
+                        <span>Add Product</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#logout">
+                        <i class='bx bx-log-out-circle' ></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </aside>
+    </main>
   </body>
 </html>
