@@ -12,79 +12,147 @@
       <aside>
         <div class="top">
           <div class="logo">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/logo.png" alt="" />
             <h2><span class="danger">Q</span> Dashboard</h2>
           </div>
           <div class="close">
-            <i class='bx bx-x'></i>
+            <i class="bx bx-x"></i>
           </div>
         </div>
         <div class="sidebar">
-            <ul>
-                <li>
-                    <a href="#dashboard" class="active">
-                        <i class='bx bxs-dashboard' ></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#customers">
-                        <i class='bx bx-user'></i>
-                        <span>Customers</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#orders">
-                        <i class='bx bx-receipt' ></i>
-                        <span>Orders</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#analytics">
-                        <i class='bx bxs-bar-chart-alt-2'></i>
-                        <span>Analytics</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#massages">
-                        <i class='bx bxl-messenger' ></i>
-                        <span>Massages</span>
-                        <span class="msg-counter">25</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#reports">
-                        <i class='bx bxs-flag' ></i>
-                        <span>Reports</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#products">
-                        <i class='bx bxs-category-alt'></i>
-                        <span>Products</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#settings">
-                        <i class='bx bx-cog' ></i>
-                        <span>Settings</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#add">
-                        <i class='bx bxs-plus-circle'></i>
-                        <span>Add Product</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#logout">
-                        <i class='bx bx-log-out-circle' ></i>
-                        <span>Logout</span>
-                    </a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a href="#dashboard" class="active">
+                <i class="bx bxs-dashboard"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#customers">
+                <i class="bx bx-user"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+            <li>
+              <a href="#orders">
+                <i class="bx bx-receipt"></i>
+                <span>Orders</span>
+              </a>
+            </li>
+            <li>
+              <a href="#analytics">
+                <i class="bx bxs-bar-chart-alt-2"></i>
+                <span>Analytics</span>
+              </a>
+            </li>
+            <li>
+              <a href="#massages">
+                <i class="bx bxl-messenger"></i>
+                <span>Massages</span>
+                <span class="msg-counter">25</span>
+              </a>
+            </li>
+            <li>
+              <a href="#reports">
+                <i class="bx bxs-flag"></i>
+                <span>Reports</span>
+              </a>
+            </li>
+            <li>
+              <a href="#products">
+                <i class="bx bxs-category-alt"></i>
+                <span>Products</span>
+              </a>
+            </li>
+            <li>
+              <a href="#settings">
+                <i class="bx bx-cog"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <a href="#add">
+                <i class="bx bxs-plus-circle"></i>
+                <span>Add Product</span>
+              </a>
+            </li>
+            <li>
+              <a href="#logout">
+                <i class="bx bx-log-out-circle"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </aside>
+      <section class="main-section">
+        <h1>Dashboard</h1>
+        <div class="date">
+            <input type="date">
+        </div>
+        <div class="cards-wrapper">
+            <!-- Salles Card  -->
+            <div class="sales-card">
+                <i class='bx bxs-bar-chart-square'></i>
+                <div class="info">
+                    <div class="info-left">
+                        <h3>Total price</h3>
+                        <h1>$25,024</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Last 24 hours</small>
+            </div>
+            <!-- End Sales Card  -->
+            <!-- Expenses Card  -->
+            <div class="expenses-card">
+                <i class='bx bx-bar-chart' ></i>
+                <div class="info">
+                    <div class="info-left">
+                        <h3>Total Expenses</h3>
+                        <h1>$25,024</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>62%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Last 24 hours</small>
+            </div>
+            <!-- End Expenses Card  -->
+            <!-- Income Card  -->
+            <div class="income-card">
+                <i class='bx bx-line-chart-down'></i>
+                <div class="info">
+                    <div class="info-left">
+                        <h3>Total Income</h3>
+                        <h1>$25,024</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>45%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Last 24 hours</small>
+            </div>
+            <!-- End Income Card  -->
+        </div>
+      </section>
     </main>
   </body>
 </html>
